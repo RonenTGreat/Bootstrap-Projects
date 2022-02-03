@@ -1,1 +1,1 @@
-# Landing Page Gorilla Coffe
+# Landing Page Gorilla Coffee
