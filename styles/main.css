@@ -3,6 +3,40 @@
   --primary-color: #0a1118;
   --pirmary-color-highlight: #233054;
   --bs-body-bg: #fbfbfb;
-  --bs-body-font-family: 'Montserrat', sans-serif;
+  --bs-body-font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: var(--primary-color) !important;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+.header {
+  z-index: 2;
+}
+
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff7e7;
+  z-index: 4;
+}
+
+.dropdown-nav__closeNavBtn {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.dropdown-nav__container {
+  height: 100vh;
+  padding: 0 1rem;
 }
 /*# sourceMappingURL=main.css.map */
