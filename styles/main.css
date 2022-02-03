@@ -6,7 +6,7 @@
   --bs-body-font-family: "Montserrat", sans-serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -111,7 +111,7 @@ a:hover {
   max-width: 540px;
 }
 
-.hero__scroll-btn{
+.hero__scroll-btn {
   position: absolute;
   left: 50%;
   bottom: 30px;
@@ -124,21 +124,51 @@ a:hover {
   text-decoration: none;
 }
 
-.hero__scroll-btn:hover{
+.hero__scroll-btn:hover {
   color: var(--bs-light) !important;
   opacity: 0.8;
 }
 
-.hero__scroll-btn .bi{
+.hero__scroll-btn .bi {
   transition-delay: 0.8s;
   animation: bounce 1s infinite alternate;
 }
 
 @keyframes bounce {
-  from{
+  from {
     transform: translateY(0px);
   }
-  to{
+  to {
     transform: translateY(-10px);
+  }
+}
+
+.steps {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.steps__section-thumbnail {
+  height: 240px !important;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.steps__content-width{
+  max-width: 456px;
+  margin: 0 auto;
+}
+
+.steps--background{
+  background-color: #fef8f9 ;
+}
+
+@media (min-width: 544px) {
+  .steps {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .steps__section-thumbnail {
+    height: auto !important;
   }
 }
